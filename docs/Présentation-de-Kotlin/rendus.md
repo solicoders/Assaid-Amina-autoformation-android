@@ -43,7 +43,10 @@ fun Bonjour(nom:String):String{
 Val cannot be reassigned
 
 
-Correct solution
+
+
+
+==> Correct solution
 
 
 ```kotlin
@@ -62,10 +65,20 @@ fun Bonjour(nom:String):String{
 
 ```
 
+==> Debugging
+
+| variable    | valour        |
+|-------------|---------------|
+| nom         | Fouad         |
+| nom         | Fouad         |
+| msg         | Bonjour Fouad |
+| bonjour_nom | Bonjour Fouad |
+
+
 
 ### Résumé
 
-- Un programme Kotlin nécessite une fonction principale comme point d'entrée du programme.
+- Un programme Kotlin nécessite une function principale comme point d'entrée du programme.
 - Pour définir une fonction en langage Kotlin, utilisez le mot clé fun, suivi du nom de la fonction, puis des entrées comprises entre parenthèses, et enfin du corps de la fonction, entre accolades.
 - Le nom d'une fonction doit respecter la convention camel case, et commencer par une lettre minuscule.
 - Utilisez l'appel de fonction println() pour que la sortie affiche du texte.
